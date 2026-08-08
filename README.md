@@ -83,40 +83,37 @@ Get personalized recommendations for skills, projects, learning resources, caree
              └─────────┬─────────┘
                        ▼
                   🚀 CAREER READY
-🛠️ Tech Stack
-Frontend
+
+                  
+## 🛠️ Tech Stack
+
+### Frontend
+
+- ⚛️ **React.js**
+- ⚡ **Vite**
+- 🟨 **JavaScript**
+- 🌐 **HTML5**
+- 🎨 **CSS3**
+
+### Tools
+
+- 🟢 **Node.js**
+- 📦 **npm**
+- 🔧 **Git**
+- 🐙 **GitHub**
+- 💻 **Visual Studio Code**
+
+### AI & Intelligence
+
+- 🤖 **AI-powered Resume Analysis**
+- 📊 **ATS Optimization**
+- 🎯 **Skill Gap Analysis**
+- 💡 **Career Recommendations**
+- 📚 **Personalized Learning**
+- 🎤 **AI Interview Preparation**
 
 
-
-
-Tools
-
-
-
-AI
-AI-powered Resume Analysis
-ATS Optimization
-Skill Gap Analysis
-Career Recommendations
-Personalized Learning
-AI Interview Preparation
-📂 Project Structure
-skillbridge-ai/
-│
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── assets/
-│   └── ...
-│
-├── .gitignore
-├── index.html
-├── package.json
-├── package-lock.json
-├── README.md
-└── vite.config.js
-🚀 Installation
+## 🚀 Installation
 Prerequisites
 Node.js
 npm
@@ -131,7 +128,9 @@ Start the Development Server
 npm run dev
 Open the URL shown in your terminal, usually:
 http://localhost:5173
-📸 Project Preview
+
+
+## 📸 Project Preview
 🏠 SkillBridge AI Landing Page
 The platform provides a clean, modern interface for accessing AI-powered career tools.
 📊 Resume & ATS Analysis
@@ -140,7 +139,9 @@ Analyze resumes and identify areas that can be improved for better ATS compatibi
 Use skill-gap analysis, career roadmaps, and personalized recommendations to plan your career journey.
 🎤 Interview Preparation
 Prepare for interviews with AI-powered interview practice.
-🎯 Target Users
+
+
+## 🎯 Target Users
 🎓 College Students
 💼 Job Seekers
 👨‍💻 Developers
@@ -148,7 +149,9 @@ Prepare for interviews with AI-powered interview practice.
 📊 Data Science Students
 🚀 Early-Career Professionals
 🔄 Professionals Looking to Reskill
-🔮 Roadmap
+
+## 🔮 Roadmap
+
 Phase 1 — Core Platform
  AI Career Platform UI
  AI Resume Builder
@@ -157,6 +160,8 @@ Phase 1 — Core Platform
  Career Roadmap
  AI Mock Interview
  Learning Hub
+
+
 Phase 2 — Advanced Intelligence
  Advanced Resume Intelligence
  Job Description vs Resume Matching
@@ -164,6 +169,8 @@ Phase 2 — Advanced Intelligence
  Personalized Course Recommendations
  AI Career Mentor
  Interview Performance Analytics
+
+
 Phase 3 — Career Ecosystem
  Job Recommendation Engine
  LinkedIn Profile Analyzer
@@ -172,7 +179,10 @@ Phase 3 — Career Ecosystem
  User Authentication
  Personalized Dashboard
  Career Progress Tracking
-🎯 Vision
+
+
+## 🎯 Vision
+
 SkillBridge AI aims to become an intelligent career companion that helps users continuously improve their career readiness.
 SKILLS
    ↓
@@ -189,18 +199,12 @@ LEARNING PATH
 MOCK INTERVIEW
    ↓
 JOB READY 🚀
+
 The goal is not simply to help users apply for jobs.
 The goal is to help users become ready for the jobs they want.
-🌐 Live Demo
-🚧 Coming Soon
-🤝 Contributing
-Contributions, ideas, and feedback are welcome.
-git checkout -b feature/new-feature
-git add .
-git commit -m "Add new feature"
-git push origin feature/new-feature
-Then create a Pull Request on GitHub.
-🔐 Security
+
+
+## 🔐 Security
 Never commit:
 API keys
 Passwords
@@ -208,7 +212,9 @@ Access tokens
 Private credentials
 Environment secrets
 Use .env files for sensitive configuration and keep them inside .gitignore.
-👨‍💻 Developer
+
+
+## 👨‍💻 Developer
 Yash Kunjir
 Computer Science Student | AI/ML & Web Development
 Interested in:
@@ -217,5 +223,7 @@ Machine Learning
 Web Development
 Modern UI/UX
 Career Technology
-⭐ Support
+
+
+## ⭐ Support
 If you find SkillBridge AI interesting, please consider giving the repository a ⭐ on GitHub.
