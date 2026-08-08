@@ -184,6 +184,10 @@ Phase 3 — Career Ecosystem
 ## 🎯 Vision
 
 SkillBridge AI aims to become an intelligent career companion that helps users continuously improve their career readiness.
+
+### 🚀 Career Readiness Journey
+
+`
 SKILLS
    ↓
 PROJECTS
@@ -200,29 +204,36 @@ MOCK INTERVIEW
    ↓
 JOB READY 🚀
 
-The goal is not simply to help users apply for jobs.
-The goal is to help users become ready for the jobs they want.
-
 
 ## 🔐 Security
--Never commit:
--API keys
--Passwords
--Access tokens
--Private credentials
--Environment secrets
--Use .env files for sensitive configuration and keep them inside .gitignore.
 
+Never commit:
+
+- 🔑 API keys
+- 🔒 Passwords
+- 🎫 Access tokens
+- 🔐 Private credentials
+- ⚙️ Environment secrets
+
+Use `.env` files for sensitive configuration and make sure they are included in `.gitignore`.
+
+---
 
 ## 👨‍💻 Developer
--Yash Kunjir
--Computer Science Student | AI/ML & Web Development
--Interested in:
--Artificial Intelligence
--Machine Learning
--Web Development
--Modern UI/UX
--Career Technology
+
+### Yash Kunjir
+
+**Computer Science Student | AI/ML & Web Development**
+
+#### Interested In
+
+- 🤖 Artificial Intelligence
+- 🧠 Machine Learning
+- 💻 Web Development
+- 🎨 Modern UI/UX
+- 🚀 Career Technology
+
+---
 
 
 ## ⭐ Support
