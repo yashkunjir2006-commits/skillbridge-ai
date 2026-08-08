@@ -144,9 +144,8 @@ Before running SkillBridge AI, make sure you have:
 
 ### 1. Clone the Repository
 
-``
+```bash
 git clone https://github.com/yashkunjir2006-commits/skillbridge-ai.git
-
 
 ## 📸 Project Preview
 
