@@ -149,6 +149,9 @@ git clone https://github.com/yashkunjir2006-commits/skillbridge-ai.git
 
 
 ## 📸 Project Preview
+
+![SkillBridge AI](./screenshots/home.png)
+
 - 🏠 SkillBridge AI Landing Page
 The platform provides a clean, modern interface for accessing AI-powered career tools.
 - 📊 Resume & ATS Analysis
