@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  An AI-powered career platform designed to help students and job seekers improve resumes, identify skill gaps, prepare for interviews, and build personalized career paths.
+  An AI-powered career platform designed to help students and job seekers improve their resumes, identify skill gaps, prepare for interviews, and build personalized career paths.
 </p>
 
 ---
@@ -23,32 +23,45 @@ It helps users move from:
 ## ✨ Features
 
 ### 🤖 AI Resume Builder
+
 Create professional resumes based on your education, skills, projects, experience, certifications, and career goals.
 
 ### 📊 ATS Resume Analyzer
+
 Analyze your resume and receive insights such as:
 
-- ATS Score
-- Keyword Analysis
-- Skill Analysis
-- Missing Skills
-- Resume Improvement Suggestions
-- ATS Optimization
+- 📈 ATS Score
+- 🔑 Keyword Analysis
+- 🧠 Skill Analysis
+- ⚠️ Missing Skills
+- 📝 Resume Improvement Suggestions
+- 🎯 ATS Optimization
 
 ### 🎯 Skill Gap Analysis
+
 Identify the difference between your current skills and the skills required for your target career.
 
 ### 🗺️ Career Roadmap
+
 Get a structured roadmap based on your target role, current skills, and career goals.
 
 ### 🎤 AI Mock Interview
+
 Practice technical, HR, behavioral, and role-specific interview questions.
 
 ### 📚 AI Learning Hub
+
 Discover learning resources based on your target career and identified skill gaps.
 
 ### 💡 Career Recommendations
-Get personalized recommendations for skills, projects, learning resources, career paths, and interview preparation.
+
+Get personalized recommendations for:
+
+- Skills to learn
+- Projects to build
+- Learning resources
+- Career paths
+- Interview preparation
 
 ---
 
@@ -86,7 +99,7 @@ Continuously improve your skills, resume, projects, and interview performance un
 
 ### 🔄 The SkillBridge Journey
 
-``
+~~~text
 👤 YOUR PROFILE
        ↓
 📄 RESUME ANALYSIS
@@ -102,8 +115,10 @@ Continuously improve your skills, resume, projects, and interview performance un
 🎤 MOCK INTERVIEW
        ↓
 🚀 CAREER READY
+~~~
 
-                  
+---
+
 ## 🛠️ Tech Stack
 
 ### Frontend
@@ -131,6 +146,7 @@ Continuously improve your skills, resume, projects, and interview performance un
 - 📚 **Personalized Learning**
 - 🎤 **AI Interview Preparation**
 
+---
 
 ## 🚀 Installation
 
@@ -144,8 +160,39 @@ Before running SkillBridge AI, make sure you have:
 
 ### 1. Clone the Repository
 
-``
+~~~bash
 git clone https://github.com/yashkunjir2006-commits/skillbridge-ai.git
+~~~
+
+### 2. Navigate to the Project
+
+~~~bash
+cd skillbridge-ai
+~~~
+
+### 3. Install Dependencies
+
+~~~bash
+npm install
+~~~
+
+### 4. Start the Development Server
+
+~~~bash
+npm run dev
+~~~
+
+### 5. Open the Application
+
+Open the URL displayed in your terminal.
+
+Usually:
+
+~~~text
+http://localhost:5173
+~~~
+
+---
 
 ## 📸 Project Preview
 
@@ -192,18 +239,13 @@ Discover relevant learning resources based on your career goals and skill gaps.
 ### 🚀 SkillBridge AI Platform
 
 ![SkillBridge AI Platform](./screenshots/screenshot-6.png)
-### 📚 Learning Hub
 
-![Learning Hub](./screenshots/Screenshot%202026-08-08%20at%203.03.43%20PM.png)
-
-Discover relevant learning resources based on your career goals and skill gaps.
-
-### 🚀 SkillBridge AI Platform
-
-![SkillBridge AI Platform](./screenshots/Screenshot%202026-08-08%20at%203.03.50%20PM.png)
-
+---
 
 ## 🎯 Target Users
+
+SkillBridge AI is designed for:
+
 - 🎓 College Students
 - 💼 Job Seekers
 - 👨‍💻 Developers
@@ -212,36 +254,40 @@ Discover relevant learning resources based on your career goals and skill gaps.
 - 🚀 Early-Career Professionals
 - 🔄 Professionals Looking to Reskill
 
+---
+
 ## 🔮 Roadmap
 
-Phase 1 — Core Platform
- AI Career Platform UI
- AI Resume Builder
- ATS Resume Analysis
- Skill Gap Analysis
- Career Roadmap
- AI Mock Interview
- Learning Hub
+### Phase 1 — Core Platform
 
+- [x] AI Career Platform UI
+- [x] AI Resume Builder
+- [x] ATS Resume Analysis
+- [x] Skill Gap Analysis
+- [x] Career Roadmap
+- [x] AI Mock Interview
+- [x] Learning Hub
 
-Phase 2 — Advanced Intelligence
- Advanced Resume Intelligence
- Job Description vs Resume Matching
- Improved ATS Scoring
- Personalized Course Recommendations
- AI Career Mentor
- Interview Performance Analytics
+### Phase 2 — Advanced Intelligence
 
+- [ ] Advanced Resume Intelligence
+- [ ] Job Description vs Resume Matching
+- [ ] Improved ATS Scoring
+- [ ] Personalized Course Recommendations
+- [ ] AI Career Mentor
+- [ ] Interview Performance Analytics
 
-Phase 3 — Career Ecosystem
- Job Recommendation Engine
- LinkedIn Profile Analyzer
- GitHub Profile Analyzer
- Portfolio Analyzer
- User Authentication
- Personalized Dashboard
- Career Progress Tracking
+### Phase 3 — Career Ecosystem
 
+- [ ] Job Recommendation Engine
+- [ ] LinkedIn Profile Analyzer
+- [ ] GitHub Profile Analyzer
+- [ ] Portfolio Analyzer
+- [ ] User Authentication
+- [ ] Personalized Dashboard
+- [ ] Career Progress Tracking
+
+---
 
 ## 🎯 Vision
 
@@ -249,7 +295,7 @@ SkillBridge AI aims to become an intelligent career companion that helps users c
 
 ### 🚀 Career Readiness Journey
 
-`
+~~~text
 SKILLS
    ↓
 PROJECTS
@@ -265,7 +311,19 @@ LEARNING PATH
 MOCK INTERVIEW
    ↓
 JOB READY 🚀
+~~~
 
+The goal is not simply to help users apply for jobs.
+
+The goal is to help users become **ready for the jobs they want**.
+
+---
+
+## 🌐 Live Demo
+
+🚧 **Coming Soon**
+
+---
 
 ## 🔐 Security
 
@@ -297,6 +355,16 @@ Use `.env` files for sensitive configuration and make sure they are included in 
 
 ---
 
-
 ## ⭐ Support
-If you find SkillBridge AI interesting, please consider giving the repository a ⭐ on GitHub.
+
+If you find **SkillBridge AI** interesting, please consider giving the repository a ⭐ on GitHub.
+
+Your feedback and suggestions are always welcome.
+
+---
+
+<p align="center">
+  <strong>🚀 SkillBridge AI</strong>
+  <br>
+  Build Skills. Beat the ATS. Get Career-Ready.
+</p>
