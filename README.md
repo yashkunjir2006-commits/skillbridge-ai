@@ -54,35 +54,54 @@ Get personalized recommendations for skills, projects, learning resources, caree
 
 ## 🧠 How It Works
 
-  '
-                    👤 USER
-                       │
-                       ▼
-              ┌─────────────────┐
-              │ Resume + Skills │
-              │ Career Goal     │
-              └────────┬────────┘
-                       │
-                       ▼
-              ┌─────────────────┐
-              │   AI ANALYSIS   │
-              └────────┬────────┘
-                       │
-          ┌────────────┼────────────┐
-          ▼            ▼            ▼
-      📊 ATS Score  🎯 Skill Gap  🗺️ Career Path
-          │            │            │
-          └────────────┼────────────┘
-                       ▼
-             Personalized Plan
-                       │
-             ┌─────────┴─────────┐
-             ▼                   ▼
-       📚 Learning Hub      🎤 Mock Interview
-             │                   │
-             └─────────┬─────────┘
-                       ▼
-                  🚀 CAREER READY
+SkillBridge AI follows a simple process to help users move from their current skills to career readiness.
+
+### 1️⃣ Build Your Profile
+
+Add your education, skills, projects, experience, certifications, and target career.
+
+### 2️⃣ Analyze Your Resume
+
+Upload or create your resume and use AI-powered analysis to evaluate its quality, skills, keywords, and ATS compatibility.
+
+### 3️⃣ Identify Skill Gaps
+
+SkillBridge AI compares your current skills with the skills required for your target career and identifies areas that need improvement.
+
+### 4️⃣ Get Your Career Roadmap
+
+Receive a structured roadmap showing what skills to learn, which projects to build, and what steps to take next.
+
+### 5️⃣ Learn & Improve
+
+Use the Learning Hub to discover relevant learning resources based on your skill gaps and career goals.
+
+### 6️⃣ Prepare for Interviews
+
+Practice technical, HR, and behavioral interviews with AI-powered mock interview preparation.
+
+### 7️⃣ Become Career Ready 🚀
+
+Continuously improve your skills, resume, projects, and interview performance until you're ready to pursue your target opportunities.
+
+### 🔄 The SkillBridge Journey
+
+``
+👤 YOUR PROFILE
+       ↓
+📄 RESUME ANALYSIS
+       ↓
+📊 ATS SCORE
+       ↓
+🎯 SKILL GAP ANALYSIS
+       ↓
+🗺️ CAREER ROADMAP
+       ↓
+📚 PERSONALIZED LEARNING
+       ↓
+🎤 MOCK INTERVIEW
+       ↓
+🚀 CAREER READY
 
                   
 ## 🛠️ Tech Stack
