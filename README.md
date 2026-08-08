@@ -193,48 +193,31 @@ http://localhost:5173
 ~~~
 
 ---
-
 ## 📸 Project Preview
 
 ### 🏠 SkillBridge AI Landing Page
 
 ![SkillBridge AI Landing Page](./screenshots/screenshot-1.png)
 
-A clean and modern interface providing access to AI-powered career tools.
-
----
-
 ### 📊 Resume & ATS Analysis
 
 ![Resume and ATS Analysis](./screenshots/screenshot-2.png)
-
-Analyze resumes and identify areas that can be improved for better ATS compatibility.
-
----
 
 ### 🎯 Career Development
 
 ![Career Development](./screenshots/screenshot-3.png)
 
-Use skill-gap analysis, career roadmaps, and personalized recommendations to plan your career journey.
-
----
-
 ### 🎤 Interview Preparation
 
 ![Interview Preparation](./screenshots/screenshot-4.png)
-
-Prepare for interviews with AI-powered interview practice.
-
----
 
 ### 📚 Learning Hub
 
 ![Learning Hub](./screenshots/screenshot-5.png)
 
-Discover relevant learning resources based on your career goals and skill gaps.
+### 🚀 SkillBridge AI Platform
 
----
+![SkillBridge AI Platform](./screenshots/screenshot-6.png)
 
 ### 🚀 SkillBridge AI Platform
 
