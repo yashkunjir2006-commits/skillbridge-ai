@@ -1,0 +1,134 @@
+.mock-test__card {
+  cursor: pointer;
+  text-align: left;
+}
+
+.mock-test__icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: var(--color-fill-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+.mock-test__card h3 {
+  font-size: 14.5px;
+  font-weight: var(--fw-semibold);
+  margin-bottom: 4px;
+}
+
+.mock-test__card p {
+  font-size: 12px;
+  color: var(--color-text-tertiary);
+}
+
+.mock-test__leaderboard-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 11px 10px;
+  border-radius: var(--radius-sm);
+  border-top: 1px solid var(--color-border);
+}
+.mock-test__leaderboard-item:first-child {
+  border-top: none;
+}
+
+.mock-test__leaderboard-item--user {
+  background: var(--color-fill-subtle);
+}
+
+.mock-test__rank {
+  width: 22px;
+  font-size: 13px;
+  font-weight: var(--fw-semibold);
+  color: var(--color-text-tertiary);
+}
+
+.mock-test__name {
+  flex: 1;
+  font-size: 13.75px;
+  font-weight: var(--fw-medium);
+  color: #000000;
+}
+
+.mock-test__score {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+.mock-test__quiz-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  color: var(--color-text-secondary);
+  margin-bottom: 10px;
+}
+
+.mock-test__timer {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.mock-test__question {
+  font-size: 18px;
+  font-weight: var(--fw-semibold);
+  letter-spacing: -0.01em;
+  margin: 22px 0 18px;
+}
+
+.mock-test__options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.mock-test__option {
+  text-align: left;
+  padding: 13px 16px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border-strong);
+  font-size: 14px;
+  color: #000000;
+  transition: background 0.2s var(--ease-out), border-color 0.2s var(--ease-out);
+}
+
+.mock-test__option:hover {
+  background: var(--color-fill-subtle);
+}
+
+.mock-test__option--correct {
+  border-color: var(--color-success);
+  background: var(--color-success-bg);
+  color: var(--color-success);
+}
+
+.mock-test__option--wrong {
+  border-color: var(--color-danger);
+  background: var(--color-danger-bg);
+  color: var(--color-danger);
+}
+
+.mock-test__result {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 0 26px;
+}
+
+.mock-test__result h3 {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.mock-test__result p {
+  font-size: 13.5px;
+  color: var(--color-text-secondary);
+}

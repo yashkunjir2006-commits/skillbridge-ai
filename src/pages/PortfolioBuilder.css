@@ -1,0 +1,108 @@
+.portfolio__section-title {
+  font-size: 14px;
+  font-weight: var(--fw-semibold);
+  margin-bottom: 14px;
+}
+
+.portfolio__themes {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.portfolio__theme {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-border-strong);
+  font-size: 13px;
+  font-weight: var(--fw-medium);
+  color: var(--color-text-secondary);
+}
+
+.portfolio__theme--active {
+  border-color: #000000;
+  color: #000000;
+  background: var(--color-fill-subtle);
+}
+
+.portfolio__swatch {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.portfolio__project-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-top: 1px solid var(--color-border);
+  font-size: 13.75px;
+}
+.portfolio__project-toggle:first-child {
+  border-top: none;
+}
+
+.portfolio__project-toggle label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #000000;
+}
+
+.portfolio-preview {
+  background: #0a0a0a;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 26px;
+}
+
+.portfolio-preview__icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 18px;
+}
+
+.portfolio-preview h2 {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.portfolio-preview > p {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 24px;
+}
+
+.portfolio-preview__list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.portfolio-preview__item {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  font-size: 13.5px;
+}
+
+.portfolio-preview--forest {
+  background: #0b1f13;
+}
+.portfolio-preview--sunset {
+  background: #2a1206;
+}
+.portfolio-preview--slate {
+  background: #0f172a;
+}

@@ -1,0 +1,117 @@
+.ai-roadmap__intro {
+  margin-bottom: 20px;
+}
+
+.ai-roadmap__intro h3 {
+  font-size: 18px;
+  margin: 12px 0 6px;
+  letter-spacing: -0.01em;
+  color: #1f1f2e;
+}
+
+.ai-roadmap__intro p {
+  font-size: 13.5px;
+  color: #6b6b80;
+  max-width: 560px;
+  line-height: 1.55;
+}
+
+.ai-roadmap__controls {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 20px;
+}
+
+.ai-roadmap__role label {
+  display: block;
+  font-size: 12.5px;
+  font-weight: var(--fw-medium);
+  color: #55556b;
+  margin-bottom: 8px;
+}
+
+.ai-roadmap__role select {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: var(--radius-sm);
+  padding: 11px 12px;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.7);
+  outline: none;
+}
+
+.ai-roadmap__result {
+  margin-top: 26px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.ai-roadmap__missing > span {
+  display: block;
+  font-size: 11.5px;
+  font-weight: var(--fw-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #8888a0;
+  margin-bottom: 10px;
+}
+
+.ai-roadmap__missing-chip {
+  font-size: 12.5px;
+  font-weight: var(--fw-medium);
+  color: #ffffff;
+  background: linear-gradient(135deg, #7c3aed, #4f46e5);
+  padding: 6px 12px;
+  border-radius: var(--radius-pill);
+}
+
+.ai-roadmap__timeline {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ai-roadmap__week {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 420px;
+}
+
+.ai-roadmap__week-card {
+  width: 100%;
+  text-align: center;
+}
+
+.ai-roadmap__week-num {
+  font-size: 11px;
+  font-weight: var(--fw-semibold);
+  color: #4f46e5;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.ai-roadmap__week-card h4 {
+  font-size: 15px;
+  margin: 6px 0 4px;
+  color: #1f1f2e;
+}
+
+.ai-roadmap__week-card p {
+  font-size: 12.5px;
+  color: #6b6b80;
+  line-height: 1.5;
+}
+
+.ai-roadmap__arrow {
+  color: #b0b0c0;
+  margin: 6px 0;
+}
+
+@media (max-width: 780px) {
+  .ai-roadmap__controls {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,27 @@
+.dash-layout {
+  min-height: 100vh;
+  background: #fbfbfb;
+}
+
+.dash-layout__main {
+  margin-left: var(--sidebar-width);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.dash-layout__content {
+  flex: 1;
+  padding: 32px 32px 64px;
+  max-width: 1320px;
+  width: 100%;
+}
+
+@media (max-width: 980px) {
+  .dash-layout__main {
+    margin-left: 0;
+  }
+  .dash-layout__content {
+    padding: 24px 18px 48px;
+  }
+}

@@ -1,0 +1,217 @@
+/* ==========================================================================
+   Premium glass layer — scoped to AI Resume Generator, Resume Analyzer,
+   and Learning Hub. Rest of the app keeps the minimal black/white system;
+   this is an intentionally distinct "premium AI surface" treatment.
+   ========================================================================== */
+
+.glass-scope {
+  position: relative;
+  margin: -32px -32px 0;
+  padding: 32px;
+  min-height: calc(100vh - var(--topbar-height));
+  isolation: isolate;
+}
+
+.glass-scope::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(1000px 500px at 8% -8%, rgba(124, 58, 237, 0.14), transparent 60%),
+    radial-gradient(900px 480px at 96% 8%, rgba(6, 182, 212, 0.12), transparent 55%),
+    radial-gradient(800px 500px at 30% 100%, rgba(236, 72, 153, 0.08), transparent 55%),
+    #fbfbfd;
+}
+
+/* Core glass surface */
+.glass-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: var(--radius-xl);
+  box-shadow: 0 1px 1px rgba(255, 255, 255, 0.6) inset, 0 8px 30px rgba(17, 24, 39, 0.07);
+  padding: 24px;
+}
+
+.glass-card--tight {
+  padding: 16px;
+}
+
+.glass-card--dark {
+  background: rgba(15, 15, 20, 0.72);
+  border-color: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+}
+
+.glass-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 14px;
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  font-size: 12.5px;
+  font-weight: var(--fw-medium);
+  color: #3f3f56;
+}
+
+.glass-gradient-text {
+  background: linear-gradient(90deg, #7c3aed, #4f46e5 45%, #06b6d4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.glass-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border-radius: var(--radius-pill);
+  font-size: 14px;
+  font-weight: var(--fw-medium);
+  color: #ffffff;
+  background: linear-gradient(90deg, #7c3aed, #4f46e5 55%, #4338ca);
+  box-shadow: 0 8px 22px rgba(79, 70, 229, 0.28);
+  transition: transform 0.25s var(--ease-out), box-shadow 0.25s var(--ease-out);
+  border: none;
+}
+
+.glass-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(79, 70, 229, 0.36);
+}
+
+.glass-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.glass-btn--ghost {
+  background: rgba(255, 255, 255, 0.6);
+  color: #3730a3;
+  box-shadow: none;
+  border: 1px solid rgba(79, 70, 229, 0.25);
+}
+
+.glass-btn--ghost:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 4px 14px rgba(79, 70, 229, 0.14);
+}
+
+.glass-tabs {
+  display: inline-flex;
+  gap: 3px;
+  padding: 4px;
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  margin-bottom: 24px;
+}
+
+.glass-tab {
+  padding: 9px 20px;
+  border-radius: var(--radius-pill);
+  font-size: 13.5px;
+  font-weight: var(--fw-medium);
+  color: #55556b;
+  transition: background 0.2s var(--ease-out), color 0.2s var(--ease-out);
+}
+
+.glass-tab--active {
+  background: linear-gradient(90deg, #7c3aed, #4f46e5);
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(79, 70, 229, 0.3);
+}
+
+/* Skeleton loaders */
+.skel {
+  position: relative;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: var(--radius-sm);
+}
+
+.skel::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.75),
+    transparent
+  );
+  animation: skel-shimmer 1.4s infinite;
+}
+
+@keyframes skel-shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Score rings */
+.glass-ring {
+  --ring-size: 84px;
+  width: var(--ring-size);
+  height: var(--ring-size);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  background: conic-gradient(
+    #7c3aed calc(var(--ring-pct, 0) * 1%),
+    rgba(0, 0, 0, 0.08) 0
+  );
+  transition: background 0.8s var(--ease-out);
+}
+
+.glass-ring::before {
+  content: '';
+  position: absolute;
+  inset: 7px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.glass-ring__value {
+  position: relative;
+  font-size: 18px;
+  font-weight: var(--fw-semibold);
+  color: #1f1f2e;
+}
+
+.glass-progress {
+  width: 100%;
+  height: 8px;
+  border-radius: var(--radius-pill);
+  background: rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+}
+
+.glass-progress__fill {
+  height: 100%;
+  border-radius: var(--radius-pill);
+  background: linear-gradient(90deg, #7c3aed, #06b6d4);
+  transition: width 0.7s var(--ease-out);
+}
+
+@media (max-width: 980px) {
+  .glass-scope {
+    margin: -18px -18px 0;
+    padding: 20px;
+  }
+}

@@ -1,0 +1,56 @@
+.internship-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.internship-card__icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: var(--color-fill-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  flex-shrink: 0;
+}
+
+.internship-card__info {
+  flex: 1;
+  min-width: 0;
+}
+
+.internship-card__title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.internship-card__title-row h3 {
+  font-size: 15px;
+  font-weight: var(--fw-semibold);
+}
+
+.internship-card__info p {
+  font-size: 12.5px;
+  color: var(--color-text-tertiary);
+  margin-bottom: 6px;
+}
+
+.internship-card__deadline {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: var(--fw-medium);
+  color: var(--color-warning);
+}
+
+@media (max-width: 640px) {
+  .internship-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

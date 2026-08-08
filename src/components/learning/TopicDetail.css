@@ -1,0 +1,122 @@
+.topic-detail__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.topic-detail__header h2 {
+  font-size: 20px;
+  letter-spacing: -0.01em;
+  margin-bottom: 8px;
+}
+
+.topic-detail__meta {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 12.5px;
+  color: #6b6b80;
+}
+
+.topic-detail__meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.topic-detail__close {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6b6b80;
+  flex-shrink: 0;
+}
+
+.topic-detail__close:hover {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.topic-detail__resources {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.resource-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 6px;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.resource-row:first-child {
+  border-top: none;
+}
+
+.resource-row__check {
+  flex-shrink: 0;
+  display: flex;
+}
+
+.resource-row__info {
+  flex: 1;
+  min-width: 0;
+}
+
+.resource-row__title-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 2px;
+}
+
+.resource-row__title-line strong {
+  font-size: 13.75px;
+  color: #1f1f2e;
+  font-weight: var(--fw-medium);
+}
+
+.resource-row__info p {
+  font-size: 12px;
+  color: #8888a0;
+}
+
+.resource-row__link {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4f46e5;
+  flex-shrink: 0;
+}
+
+.resource-row__link:hover {
+  background: rgba(79, 70, 229, 0.1);
+}
+
+.topic-detail__projects {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.topic-detail__project-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 14px;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: var(--radius-sm);
+  font-size: 13.5px;
+  color: #1f1f2e;
+}

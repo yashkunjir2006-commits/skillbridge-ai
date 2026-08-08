@@ -1,0 +1,32 @@
+.not-found {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.not-found__icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  background: var(--color-fill-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.not-found h1 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.not-found p {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  margin-bottom: 22px;
+}
