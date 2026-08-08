@@ -114,41 +114,40 @@ Get personalized recommendations for skills, projects, learning resources, caree
 
 
 ## 🚀 Installation
-Prerequisites
-Node.js
-npm
-Git
-Clone the Repository
+
+### Prerequisites
+
+Before running SkillBridge AI, make sure you have:
+
+- 🟢 Node.js
+- 📦 npm
+- 🔧 Git
+
+### 1. Clone the Repository
+
+``
 git clone https://github.com/yashkunjir2006-commits/skillbridge-ai.git
-Navigate to the Project
-cd skillbridge-ai
-Install Dependencies
-npm install
-Start the Development Server
-npm run dev
-Open the URL shown in your terminal, usually:
-http://localhost:5173
 
 
 ## 📸 Project Preview
-🏠 SkillBridge AI Landing Page
+- 🏠 SkillBridge AI Landing Page
 The platform provides a clean, modern interface for accessing AI-powered career tools.
-📊 Resume & ATS Analysis
+- 📊 Resume & ATS Analysis
 Analyze resumes and identify areas that can be improved for better ATS compatibility.
-🎯 Career Development
+- 🎯 Career Development
 Use skill-gap analysis, career roadmaps, and personalized recommendations to plan your career journey.
-🎤 Interview Preparation
+- 🎤 Interview Preparation
 Prepare for interviews with AI-powered interview practice.
 
 
 ## 🎯 Target Users
-🎓 College Students
-💼 Job Seekers
-👨‍💻 Developers
-🤖 AI/ML Learners
-📊 Data Science Students
-🚀 Early-Career Professionals
-🔄 Professionals Looking to Reskill
+- 🎓 College Students
+- 💼 Job Seekers
+- 👨‍💻 Developers
+- 🤖 AI/ML Learners
+- 📊 Data Science Students
+- 🚀 Early-Career Professionals
+- 🔄 Professionals Looking to Reskill
 
 ## 🔮 Roadmap
 
