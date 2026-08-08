@@ -205,24 +205,24 @@ The goal is to help users become ready for the jobs they want.
 
 
 ## 🔐 Security
-Never commit:
-API keys
-Passwords
-Access tokens
-Private credentials
-Environment secrets
-Use .env files for sensitive configuration and keep them inside .gitignore.
+-Never commit:
+-API keys
+-Passwords
+-Access tokens
+-Private credentials
+-Environment secrets
+-Use .env files for sensitive configuration and keep them inside .gitignore.
 
 
 ## 👨‍💻 Developer
-Yash Kunjir
-Computer Science Student | AI/ML & Web Development
-Interested in:
-Artificial Intelligence
-Machine Learning
-Web Development
-Modern UI/UX
-Career Technology
+-Yash Kunjir
+-Computer Science Student | AI/ML & Web Development
+-Interested in:
+-Artificial Intelligence
+-Machine Learning
+-Web Development
+-Modern UI/UX
+-Career Technology
 
 
 ## ⭐ Support
