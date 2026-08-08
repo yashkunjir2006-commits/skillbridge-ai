@@ -150,16 +150,39 @@ git clone https://github.com/yashkunjir2006-commits/skillbridge-ai.git
 
 ## 📸 Project Preview
 
-![SkillBridge AI](./screenshots/home.png)
+### 🏠 SkillBridge AI Landing Page
 
-- 🏠 SkillBridge AI Landing Page
-The platform provides a clean, modern interface for accessing AI-powered career tools.
-- 📊 Resume & ATS Analysis
+![SkillBridge AI Landing Page](./screenshots/Screenshot%202026-08-08%20at%203.03.15%20PM.png)
+
+A clean and modern interface providing access to AI-powered career tools.
+
+### 📊 Resume & ATS Analysis
+
+![Resume and ATS Analysis](./screenshots/Screenshot%202026-08-08%20at%203.03.22%20PM.png)
+
 Analyze resumes and identify areas that can be improved for better ATS compatibility.
-- 🎯 Career Development
+
+### 🎯 Career Development
+
+![Career Development](./screenshots/Screenshot%202026-08-08%20at%203.03.29%20PM.png)
+
 Use skill-gap analysis, career roadmaps, and personalized recommendations to plan your career journey.
-- 🎤 Interview Preparation
+
+### 🎤 Interview Preparation
+
+![Interview Preparation](./screenshots/Screenshot%202026-08-08%20at%203.03.37%20PM.png)
+
 Prepare for interviews with AI-powered interview practice.
+
+### 📚 Learning Hub
+
+![Learning Hub](./screenshots/Screenshot%202026-08-08%20at%203.03.43%20PM.png)
+
+Discover relevant learning resources based on your career goals and skill gaps.
+
+### 🚀 SkillBridge AI Platform
+
+![SkillBridge AI Platform](./screenshots/Screenshot%202026-08-08%20at%203.03.50%20PM.png)
 
 
 ## 🎯 Target Users
